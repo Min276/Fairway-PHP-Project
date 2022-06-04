@@ -1,0 +1,18 @@
+{
+    "name": "minkhant/project",
+    "authors": [
+        {
+            "name": "Min Khant Kyaw",
+            "email": "minkhantkyawttu@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "Libs\\": "_classes/Libs/",
+            "Helpers\\": "_classes/Helpers/"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.19"
+    }
+}
